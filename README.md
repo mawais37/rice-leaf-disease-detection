@@ -104,13 +104,13 @@ Trained for 25 epochs with data augmentation:
 Green titles = correct prediction, red = incorrect (with confidence score shown):
 
 <p align="center">
-  <img src="./images/random_predictions.png" width="80%" alt="Sample rice leaf predictions" />
+  <img src="./random_predictions.png" width="80%" alt="Sample rice leaf predictions" />
 </p>
 
 ### 🔢 Confusion Matrix
 
 <p align="center">
-  <img src="./images/confusion_matrix.png" width="55%" alt="Confusion matrix across disease classes" />
+  <img src="./confusion_matrix.png" width="55%" alt="Confusion matrix across disease classes" />
 </p>
 
 ---
@@ -121,9 +121,8 @@ Green titles = correct prediction, red = incorrect (with confidence score shown)
 rice-leaf-disease-detection/
 │
 ├── rice-leaf-disease-detection.ipynb   # Full training, evaluation & visualization pipeline
-├── images/
-│   ├── random_predictions.png          # Sample model predictions on rice leaves
-│   └── confusion_matrix.png            # Per-class confusion matrix
+├── random_predictions.png              # Sample model predictions on rice leaves
+├── confusion_matrix.png                # Per-class confusion matrix
 └── README.md                           # Project documentation
 ```
 
