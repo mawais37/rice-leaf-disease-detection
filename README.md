@@ -99,7 +99,19 @@ Trained for 25 epochs with data augmentation:
 | Training Loss | 0.30 |
 | Validation Loss | 0.53 |
 
-A confusion matrix and per-class prediction visualizations (correct predictions in green, incorrect in red) are included in the notebook.
+### 🖼️ Sample Predictions
+
+Green titles = correct prediction, red = incorrect (with confidence score shown):
+
+<p align="center">
+  <img src="./images/random_predictions.png" width="80%" alt="Sample rice leaf predictions" />
+</p>
+
+### 🔢 Confusion Matrix
+
+<p align="center">
+  <img src="./images/confusion_matrix.png" width="55%" alt="Confusion matrix across disease classes" />
+</p>
 
 ---
 
@@ -109,6 +121,9 @@ A confusion matrix and per-class prediction visualizations (correct predictions 
 rice-leaf-disease-detection/
 │
 ├── rice-leaf-disease-detection.ipynb   # Full training, evaluation & visualization pipeline
+├── images/
+│   ├── random_predictions.png          # Sample model predictions on rice leaves
+│   └── confusion_matrix.png            # Per-class confusion matrix
 └── README.md                           # Project documentation
 ```
 
